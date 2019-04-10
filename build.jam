@@ -1,0 +1,18 @@
+import feature ;
+
+explicit_alias posix
+    :   /FREERTOS//CORE
+    :   <FreeRTOS>enabled
+        <FreeRTOSPort>Posix
+        <link>static
+
+        <include>/usr/include
+    ;
+explicit posix ;
+
+explicit_alias windows
+    :   /FREERTOS//CORE
+    :   <FreeRTOS>enabled
+        <FreeRTOSPort>Windows
+        <link>static
+    ;
