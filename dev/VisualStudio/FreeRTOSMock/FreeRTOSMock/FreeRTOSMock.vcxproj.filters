@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FreeRTOS">
+      <UniqueIdentifier>{339985d9-ba1f-4fdc-824d-af4b07dd8f29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeRTOS\portable">
+      <UniqueIdentifier>{b3f978c0-8ef7-4988-b35b-7b69d0cc0723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeRTOS\portable\MemMang">
+      <UniqueIdentifier>{8c761c65-eef6-4515-944d-a75fa02004a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeRTOS\portable\MSVC-MingW">
+      <UniqueIdentifier>{8f5e816f-aa08-4d03-9b03-1d98b35f8ef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeRTOS\include">
+      <UniqueIdentifier>{e9e27e98-4e06-4ecd-81c7-3c7dda77dc2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cfg">
+      <UniqueIdentifier>{026b4e0e-b8b4-4684-98d7-12c6b451def2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeRTOS\mock">
+      <UniqueIdentifier>{3d84345c-902f-49e4-8568-67f8ca0507a2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\FreeRTOS\croutine.c">
+      <Filter>FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FreeRTOS\event_groups.c">
+      <Filter>FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FreeRTOS\list.c">
+      <Filter>FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FreeRTOS\queue.c">
+      <Filter>FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FreeRTOS\stream_buffer.c">
+      <Filter>FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FreeRTOS\tasks.c">
+      <Filter>FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FreeRTOS\timers.c">
+      <Filter>FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FreeRTOS\portable\MSVC-MingW\port.c">
+      <Filter>FreeRTOS\portable\MSVC-MingW</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FreeRTOS\portable\MemMang\heap_4.c">
+      <Filter>FreeRTOS\portable\MemMang</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FreeRTOS\mock\mock_event_groups.cpp">
+      <Filter>FreeRTOS\mock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FreeRTOS\mock\mock_message_buffer.cpp">
+      <Filter>FreeRTOS\mock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FreeRTOS\mock\mock_queue.cpp">
+      <Filter>FreeRTOS\mock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FreeRTOS\mock\mock_semphr.cpp">
+      <Filter>FreeRTOS\mock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FreeRTOS\mock\mock_task.cpp">
+      <Filter>FreeRTOS\mock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FreeRTOS\mock\mock_timers.cpp">
+      <Filter>FreeRTOS\mock</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\FreeRTOS\portable\MSVC-MingW\portmacro.h">
+      <Filter>FreeRTOS\portable\MSVC-MingW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\FreeRTOS\include\croutine.h">
+      <Filter>FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\FreeRTOS\include\deprecated_definitions.h">
+      <Filter>FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\FreeRTOS\include\event_groups.h">
+      <Filter>FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\FreeRTOS\include\FreeRTOS.h">
+      <Filter>FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\FreeRTOS\include\list.h">
+      <Filter>FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\FreeRTOS\include\message_buffer.h">
+      <Filter>FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\FreeRTOS\include\mpu_prototypes.h">
+      <Filter>FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\FreeRTOS\include\mpu_wrappers.h">
+      <Filter>FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\FreeRTOS\include\portable.h">
+      <Filter>FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\FreeRTOS\include\projdefs.h">
+      <Filter>FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\FreeRTOS\include\queue.h">
+      <Filter>FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\FreeRTOS\include\semphr.h">
+      <Filter>FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\FreeRTOS\include\stack_macros.h">
+      <Filter>FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\FreeRTOS\include\StackMacros.h">
+      <Filter>FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\FreeRTOS\include\stream_buffer.h">
+      <Filter>FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\FreeRTOS\include\task.h">
+      <Filter>FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\FreeRTOS\include\timers.h">
+      <Filter>FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cfg\FreeRTOSConfig.h">
+      <Filter>cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\FreeRTOS\mock\mock_event_groups.hpp">
+      <Filter>FreeRTOS\mock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\FreeRTOS\mock\mock_message_buffer.hpp">
+      <Filter>FreeRTOS\mock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\FreeRTOS\mock\mock_queue.hpp">
+      <Filter>FreeRTOS\mock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\FreeRTOS\mock\mock_semphr.hpp">
+      <Filter>FreeRTOS\mock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\FreeRTOS\mock\mock_task.hpp">
+      <Filter>FreeRTOS\mock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\FreeRTOS\mock\mock_timers.hpp">
+      <Filter>FreeRTOS\mock</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
