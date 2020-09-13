@@ -1,0 +1,4 @@
+{
+  "name": "GCC Embedded ARM",
+  "toolchainFile": "${workspaceFolder}/toolchain.cmake"
+}
